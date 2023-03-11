@@ -29,4 +29,7 @@ public class ArithmeticOperations
 }
 ~~~
 Program and Output screenshots:
-!out[](prog1.out)
+
+![prog1](https://user-images.githubusercontent.com/95342910/224466142-b37445ba-62d6-46e2-b506-231a5eaca67b.png)
+
+![out1](https://user-images.githubusercontent.com/95342910/224466163-22d53f26-29be-416f-aca6-aba9966a1215.png)
