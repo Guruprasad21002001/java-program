@@ -193,3 +193,26 @@ Program and Output screenshots:
 ![prog5(2)](https://user-images.githubusercontent.com/95342910/224467989-cf560690-78cf-493a-ada5-1caa77bc26f8.png)
 
 ![out5](https://user-images.githubusercontent.com/95342910/224467994-9b4e1190-f222-45f8-b5c0-d7d5162083ed.png)
+
+# 6. Java program to print the even numbers from 1 to 20:
+// Java program to print the even numbers from 1 to 20....
+~~~
+public class EvenNumbers
+{
+    public static void main(String[] args)
+    {
+        for (int i = 1; i <= 20; i++)
+        {
+            if(i%2==0)
+            {
+                System.out.print(i+"\t");
+            }
+        }
+    }
+}
+~~~
+Program and Output screenshots:
+
+![prog6](https://user-images.githubusercontent.com/95342910/224473953-9a5b6323-669e-47f8-9439-a9e1f71d6477.png)
+
+![out6](https://user-images.githubusercontent.com/95342910/224473948-13e73802-a9c1-4a4c-b32b-f4e02473d81a.png)
