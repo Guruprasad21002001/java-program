@@ -98,3 +98,23 @@ Program and Output screenshots:
 
 ![out3](https://user-images.githubusercontent.com/95342910/224466433-f051f3db-7118-4ba5-9e3c-ed333d36cc5a.png)
 
+# 4. Java Program to find area of rhombus:
+
+//Java Program to find area of rhombus..
+~~~
+import java.util.*;
+public class RhombusArea
+{
+    public static void main(String[] args)
+    {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the length of the diagonal 1: ");
+        int x = s.nextInt();
+        System.out.print("Enter the length of the diagonal 2: ");
+        int y = s.nextInt();
+
+        int area =(x * y)/2;
+        System.out.println("The area of the rhombus is " + area);
+    }
+}
+~~~
