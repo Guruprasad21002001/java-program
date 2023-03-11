@@ -118,3 +118,9 @@ public class RhombusArea
     }
 }
 ~~~
+Program and Output screenshots:
+
+![prog4](https://user-images.githubusercontent.com/95342910/224467162-5ae90b5e-34ea-4843-bf5f-f07d54f632f7.png)
+
+![out4](https://user-images.githubusercontent.com/95342910/224467178-55828e35-dc05-463f-80c9-a965531adc32.png)
+
