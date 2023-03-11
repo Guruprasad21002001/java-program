@@ -70,3 +70,31 @@ Program and Output screenshots:
 
 ![out2](https://user-images.githubusercontent.com/95342910/224466271-4a951c19-c454-481f-b2fb-f876aecd3134.png)
 
+# 3. Java program to convert a string to an integer:
+// Java program to convert a string to an integer.....
+~~~
+import java.util.*;
+
+public class Str {
+    public static void main(String[] args)
+    {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter an string: ");
+
+        if(s.hasNextInt())
+        {
+            int n = s.nextInt();
+            System.out.println("The integer value is " + n);
+        } else
+        {
+            System.out.println("Invalid input, please enter an integer.");
+        }
+    }
+}
+~~~
+Program and Output screenshots:
+
+![prog3](https://user-images.githubusercontent.com/95342910/224466398-2d84fa92-db90-4e9d-99de-b56e0bbc9264.png)
+
+![out3](https://user-images.githubusercontent.com/95342910/224466433-f051f3db-7118-4ba5-9e3c-ed333d36cc5a.png)
+
