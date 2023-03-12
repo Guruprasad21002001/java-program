@@ -1,7 +1,7 @@
 # java-program
 # 1. Java program to print the sum, multiply, subtract, divide and remainder of two numbers:
 //Java program to print the sum, multiply, subtract, divide and remainder of two numbers
-~~~
+~~~java
 import java.util.*;
 public class ArithmeticOperations
 {
@@ -37,7 +37,7 @@ Program and Output screenshots:
 
 # 2. Java program to compare two numbers:
 // Java program to compare two numbers...
-~~~
+~~~java
 import java.util.*;
 public class CompareNumber
 {
@@ -72,7 +72,7 @@ Program and Output screenshots:
 
 # 3. Java program to convert a string to an integer:
 // Java program to convert a string to an integer.....
-~~~
+~~~java
 import java.util.*;
 
 public class Str {
@@ -101,7 +101,7 @@ Program and Output screenshots:
 # 4. Java Program to find area of rhombus:
 
 //Java Program to find area of rhombus..
-~~~
+~~~java
 import java.util.*;
 public class RhombusArea
 {
@@ -126,7 +126,7 @@ Program and Output screenshots:
 
 #5. Java program to find the number of days in a month:
 // Java program to find the number of days in a month...
-~~~
+~~~java
 import java.util.*;
 public class MonthDays {
     public static void main(String[] args) {
@@ -196,7 +196,7 @@ Program and Output screenshots:
 
 # 6. Java program to print the even numbers from 1 to 20:
 // Java program to print the even numbers from 1 to 20....
-~~~
+~~~java
 public class EvenNumbers
 {
     public static void main(String[] args)
@@ -216,3 +216,70 @@ Program and Output screenshots:
 ![prog6](https://user-images.githubusercontent.com/95342910/224473953-9a5b6323-669e-47f8-9439-a9e1f71d6477.png)
 
 ![out6](https://user-images.githubusercontent.com/95342910/224473948-13e73802-a9c1-4a4c-b32b-f4e02473d81a.png)
+
+#7. Java program to create a simple calculator:
+// Java program to create a simple calculator...
+~~~java
+import java.util.Scanner;
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int num1 = s.nextInt();
+        System.out.print("Enter the second number: ");
+        int num2 = s.nextInt();
+        System.out.print("Enter an operator to perform 1.Addition, 2.Subtraction, 3.Multiplication, 4.Division: ");
+        int option = s.nextInt();
+        int result;
+        switch(option){
+            case 1:
+                result = num1 + num2;
+                System.out.println("Addition of the two numbers is : " + result);
+                break;
+            case 2:
+                result = num1 - num2;
+                System.out.println("Subtraction of the two numbers is : " + result);
+                break;
+            case 3:
+                result = num1 * num2;
+                System.out.println("Multiplication of the two numbers is : " + result);
+                break;
+            case 4:
+                result = num1 / num2;
+                System.out.println("Division of the two numbers is : " + result);
+                break;
+            default:
+                System.out.println("Invalid operator");
+        }
+    }
+}
+~~~~
+Program and Output screenshots:
+
+![prog7](https://user-images.githubusercontent.com/95342910/224531270-0ffd6613-21cd-4707-90cb-a56e19230ca2.png)
+
+![out7](https://user-images.githubusercontent.com/95342910/224531283-b11d9806-9b1c-4875-b58c-8a81cde6d754.png)
+
+#8. Java program to print multiplication table of given number:
+// Java program to print multiplication table of given number...
+~~~java
+import java.util.Scanner;
+public class MultiplicationTable
+{
+    public static void main(String[] args)
+    {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the number to print the multiplication table : ");
+        int z = s.nextInt();
+        for(int i=1;i<=10;i++)
+        {
+            System.out.println(z+" * "+i+" = "+(z*i));
+        }
+    }
+}
+~~~
+Program and Output screenshots:
+
+![prog8](https://user-images.githubusercontent.com/95342910/224531592-be8587c2-fb57-4bbf-ae91-63e09d565fbf.png)
+
+![out8](https://user-images.githubusercontent.com/95342910/224531616-7c00265d-7450-472f-a94d-296b75f962c5.png)
